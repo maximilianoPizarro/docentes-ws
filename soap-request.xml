@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://sample.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sam:order>
+         <product>abc</product>
+         <amount>10</amount>
+      </sam:order>
+   </soapenv:Body>
+</soapenv:Envelope>
